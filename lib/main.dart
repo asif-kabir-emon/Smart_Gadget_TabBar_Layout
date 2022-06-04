@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'GridViewWidget.dart';
+import 'All.dart';
 import 'LivingRoom.dart';
 import 'Bedroom.dart';
 
@@ -71,7 +71,7 @@ class _AppBodyState extends State<AppBody> {
         backgroundColor: Colors.white70,
         body: const TabBarView(
           children: [
-            GridViewWidget(),
+            All(),
             LivingRoom(),
             Bedroom(),
             Text(''),
